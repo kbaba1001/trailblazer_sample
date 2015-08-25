@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 gem 'cells'
 gem 'cells-haml'
+gem 'coffee-rails'
 gem 'hamlit-rails'
+gem 'jquery-rails'
 gem 'pg'
 gem 'puma'
 gem 'rails'
@@ -13,9 +15,6 @@ gem 'simple_form'
 gem 'trailblazer'
 gem 'turbolinks'
 gem 'uglifier'
-
-# gem 'coffee-rails'
-# gem 'jquery-rails'
 
 group :development do
   gem 'html2haml'
