@@ -17,7 +17,6 @@ gem 'turbolinks'
 gem 'uglifier'
 
 group :development do
-  gem 'html2haml'
   gem 'letter_opener_web'
   gem 'quiet_assets'
 end
