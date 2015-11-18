@@ -12,7 +12,7 @@ gem 'reform'
 gem 'roar'
 gem 'sass-rails'
 gem 'simple_form'
-gem 'trailblazer'
+gem 'trailblazer-rails'
 gem 'turbolinks'
 gem 'uglifier'
 
