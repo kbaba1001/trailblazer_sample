@@ -10,7 +10,7 @@ class Thing::Create < Trailblazer::Operation
   def process(params)
     @model = Thing.new
 
-    validate(params[:thing], thing) do |f|
+    validate(params[:thing]) do |f|
       f.save
     end
   end
