@@ -24,7 +24,6 @@ end
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'spring'
   gem 'test-unit-rails'
   gem 'web-console'
 end

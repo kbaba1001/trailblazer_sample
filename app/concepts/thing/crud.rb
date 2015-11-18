@@ -8,8 +8,6 @@ class Thing::Create < Trailblazer::Operation
   end
 
   def process(params)
-    @model = Thing.new
-
     validate(params[:thing]) do |f|
       f.save
     end
