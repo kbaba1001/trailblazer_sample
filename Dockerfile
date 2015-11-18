@@ -8,6 +8,8 @@ WORKDIR $APP_HOME
 
 ADD Gemfile* $APP_HOME/
 
+ADD trailblazer-rails /myapp/trailblazer-rails/
+
 ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile \
   BUNDLE_JOBS=2 \
   BUNDLE_PATH=/bundle

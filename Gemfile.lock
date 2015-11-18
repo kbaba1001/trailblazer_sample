@@ -1,3 +1,9 @@
+PATH
+  remote: ./trailblazer-rails
+  specs:
+    trailblazer-rails (0.1.6)
+      trailblazer (>= 1.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,8 +211,6 @@ GEM
     trailblazer (1.0.4)
       reform (>= 1.2.0)
       uber (>= 0.0.15)
-    trailblazer-rails (0.1.6)
-      trailblazer (>= 1.0.4)
     turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
@@ -245,7 +249,7 @@ DEPENDENCIES
   simple_form
   spring
   test-unit-rails
-  trailblazer-rails
+  trailblazer-rails!
   turbolinks
   uglifier
   web-console
